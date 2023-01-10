@@ -1,0 +1,158 @@
+body {
+   background-color: #d4dbe6; 
+  font-family: 'Montserrat', 'arial' ; 
+}
+
+
+li {
+    line-height: 24px;
+}
+ /* ------------------ */
+/* Contenido Principal */
+/* ------------------- */
+
+.contenedor-principal {
+    display: flex;
+    flex-direction: row-reverse;
+   background-color: white;
+   width: 1200px;
+   margin: 40px auto;
+}
+
+
+
+/* ------------------- */
+/* Informacion General */
+/* ------------------- */
+
+.informacion-general {
+    padding: 100px  88px;
+}
+
+/* Descripcion */
+
+.nombre {
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 55px;
+margin-top: 20px;
+margin-bottom: 25;
+}
+
+.texto-descripcion {
+width: 400px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+
+.educaion {
+    display: block red;
+}
+    
+
+.descripcion-profesion {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Secciones principales */
+
+.titulo-seccion-principal {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 45px;
+}
+
+
+
+
+/* seccion experiencia laboral */
+
+.puesto-empresa {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px; 
+    margin-top: 15px;
+    margin-bottom: 11px;
+}
+
+.periodo-empresas {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A8A8A8;
+}
+
+.lista-experiencia {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+padding: 17px;
+}
+
+
+
+/* Informacioon Lateral */
+
+.informacion-lateral {
+background-color: #084092 ;
+padding: 40px 0;
+}
+
+.titulo-lateral {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 50px;
+}
+
+.contactos, .habilidades-tecnicas, .habilidades-blandas {
+margin-left: 40px;
+}
+
+/* Secion Contactos */
+
+.tipo-contacto {
+    color:  white;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+margin-right: 5px;
+}
+
+.contacto-info {
+    color: #e0d7d7 ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+}
+
+/* Seccion de Lista */
+
+.lista-lateral {
+    padding-left: 17px;
+}
+
+.lista-lateral > li {
+    color: white;
+}
+
+.elemento-lista-lateral {
+color: white;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
